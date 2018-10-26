@@ -5,7 +5,7 @@ class Udacian():
     Attributes:
     name (str): Udacian member name
     city (str): City where member lives
-    enrollment (object):  List of the courses the member enrolled in
+    enrollment (str):  Courses the member enrolled in
     nanodegree (str): The name of the nanodegree course
     status (str): The status of the member
     """
@@ -17,14 +17,11 @@ class Udacian():
         self.nanodegree = nanodegree
         self.status = status
 
+    # Display the udacian information
     def print_udacian(self):
-        print("Udacity Member Information:", "\nName: ", self.name, "\nCity: ",
-              self.city, "\nEnrollment: ",
-              (", ".join([str(i) for i in self.enrollment])), "\nNanodegree: ",
-              self.nanodegree, "\nStatus: ", self.status)
-
-
-zinab = Udacian("Zainab", "Jeddah", ["Full-Stack", "Font-End"], "Full-Stack",
-                "Active")
-
-print(zinab.print_udacian())
+        value = "Udacity Member Information:\nName: "
+        value+= self.name + "\nCity: " + self.city 
+        value+= "\nEnrollment: "+ self.enrollment
+        value+= "\nNanodegree: "+self.nanodegree + "\nStatus: "+self.status
+        value+="\n---------------------------------"
+        return value
