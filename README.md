@@ -1,4 +1,4 @@
-# Udacity Session 2 Exercise
+# Udacity Session 2 Exercises | Activity (3+4)
 This is a simple python web server exercise where udacity member can fill a form with thier information then display the information on the same page. This exercise is guided by [Misk Udacity Connect Program](https://misk.org.sa/fellowship/misk-udacity-connect-program/).
 
 ## Project Description
