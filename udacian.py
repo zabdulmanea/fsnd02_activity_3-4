@@ -20,8 +20,9 @@ class Udacian():
     # Display the udacian information
     def print_udacian(self):
         value = "Udacity Member Information:\nName: "
-        value+= self.name + "\nCity: " + self.city 
-        value+= "\nEnrollment: "+ self.enrollment
-        value+= "\nNanodegree: "+self.nanodegree + "\nStatus: "+self.status
-        value+="\n---------------------------------"
+        value += self.name + "\nCity: " + self.city
+        value += "\nEnrollment: " + self.enrollment
+        value += "\nNanodegree: " + self.nanodegree
+        value += "\nStatus: " + self.status
+        value += "\n---------------------------------"
         return value
